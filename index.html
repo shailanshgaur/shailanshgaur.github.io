@@ -140,6 +140,36 @@
             margin-bottom: 0.5rem;
         }
 
+        .recommendations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .recommendation {
+            background: rgba(15, 23, 42, 0.45);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 1.25rem;
+        }
+
+        .recommendation blockquote {
+            color: var(--text-main);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .recommendation .source {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .recommendation .meta {
+            color: var(--text-muted);
+            font-size: 0.82rem;
+        }
+
         /* Footer */
         .socials {
             display: flex;
@@ -203,6 +233,73 @@
                 <li><strong>Strategic Delivery:</strong> Owned end-to-end supply-demand management for a 200+ consultant practice, maintaining 100% SLA adherence[cite: 14].</li>
                 <li><strong>Data & Governance:</strong> Delivered weekly Ops MI with commercial context and recommended interventions, enabling faster resourcing decisions[cite: 18].</li>
             </ul>
+        </section>
+
+        <section class="card">
+            <h3><i class="fas fa-comments"></i> LinkedIn Recommendations</h3>
+            <p>Selected feedback from 12 recommendations received on LinkedIn, reflecting resource management delivery, stakeholder partnership, and team leadership.</p>
+            <div class="recommendations-grid">
+                <article class="recommendation">
+                    <blockquote>Shailansh has been an incredible resource assistant manager throughout his time at EY. He’s highly diligent, results focused and understands the resource management model exceptionally well. He’s demonstrated the ability to partner alongside stakeholders of all levels and build some fantastic relationships. A true 5* RM professional.</blockquote>
+                    <p class="source">Hannah Ray</p>
+                    <p class="meta">Resource Management Lead · Managed Shailansh directly · June 17, 2026</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh is a great team player and showed great attitude to learning and management, soon getting up to speed with his new role and taking ownership of it. Good to work with you!</blockquote>
+                    <p class="source">Alessandra Campanella</p>
+                    <p class="meta">Director at EY Digital Finance · Client · June 10, 2025</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh was resilient, fun to work with, and made my day easier. He is happy to bridge the gap, flex style and approach, to help the whole team succeed, which is essential in a project based business.</blockquote>
+                    <p class="source">Jim Pateman</p>
+                    <p class="meta">Business Consultant · Client · June 3, 2025</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh consistently demonstrates exceptional efficiency and quickness in his role, ensuring that operations run seamlessly. His friendly and approachable demeanor makes him a valuable team member, fostering a positive work environment.</blockquote>
+                    <p class="source">Diego Behrens</p>
+                    <p class="meta">Sub Gerente de Empresas · Worked on different teams · September 9, 2024</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>For two years, Shailansh supported me in resourcing our team of 30+ sales transformation professionals. His consistent positivity created a good atmosphere for decisions in ambiguous situations.</blockquote>
+                    <p class="source">Stephen Cowburn</p>
+                    <p class="meta">Director at EY · Client · June 27, 2023</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh is extremely good in managing talent demand and supply chain. He is highly motivated and a self starter with the objective of serving his business customers efficiently.</blockquote>
+                    <p class="source">Sudeep Rudra</p>
+                    <p class="meta">VP, Intelligent Industry Client Partner · Senior colleague · April 19, 2023</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh is wonderful to work with, has expertise in managing bench and demand which brings out-of-the-box ideas to the table. He is highly process oriented and that increases his efficiency and accuracy.</blockquote>
+                    <p class="source">Neha Sinha</p>
+                    <p class="meta">Assistant Director at EY GDS · Senior colleague · February 14, 2022</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>If ever there was any position which requires attention to detail, a calm demeanor, and someone who meets deadlines under extreme pressure, then Shailansh is tailor-made for that role.</blockquote>
+                    <p class="source">Suyog Sawant</p>
+                    <p class="meta">Graphologist / NLP Practitioner · Same team · August 20, 2021</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Reliable, responsible, responsive are the words that come to mind when talking about Shailansh. Humble in his communication and always helpful. Thanks for all the support.</blockquote>
+                    <p class="source">Prashant Setty</p>
+                    <p class="meta">Program Manager at Capgemini · Client · August 17, 2021</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh is extremely dedicated and hardworking. He has good reasoning and analytical abilities that enable him to understand the task thoroughly and deliver efficiently.</blockquote>
+                    <p class="source">Krishnapriya Nair</p>
+                    <p class="meta">Atlassian Solutions Consultant · Worked on different teams · August 17, 2021</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Dedicated and smart working. Passionate about the work. One of the most intellectual personalities and analytical minds I know very closely.</blockquote>
+                    <p class="source">Akash Deep Maurya</p>
+                    <p class="meta">Account Management and Customer Success · Same team · April 22, 2020</p>
+                </article>
+                <article class="recommendation">
+                    <blockquote>Shailansh has a great thought and way of doing work.</blockquote>
+                    <p class="source">Rishab Pathak</p>
+                    <p class="meta">Client Partner / Marketeer · Studied together · September 5, 2018</p>
+                </article>
+            </div>
         </section>
 
         <footer class="socials">
