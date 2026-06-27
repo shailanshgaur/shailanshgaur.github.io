@@ -1,0 +1,84 @@
+<svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Shailansh Gaur portfolio showcase</title>
+  <desc id="desc">A premium dark portfolio banner for strategic staffing, workforce planning, and resource management.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.48" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#141F33"/>
+    </linearGradient>
+    <radialGradient id="tealGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1004 106) rotate(139.324) scale(458 356.747)">
+      <stop stop-color="#46E0D0" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#46E0D0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(162 452) rotate(-28.3925) scale(440 260.157)">
+      <stop stop-color="#F5B85F" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F5B85F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="214" y1="96" x2="1024" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46E0D0"/>
+      <stop offset="1" stop-color="#F5B85F"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="560" rx="34" fill="url(#bg)"/>
+  <rect width="1280" height="560" rx="34" fill="url(#tealGlow)"/>
+  <rect width="1280" height="560" rx="34" fill="url(#goldGlow)"/>
+  <rect x="1" y="1" width="1278" height="558" rx="33" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="34" y="34" width="1212" height="492" rx="26" fill="url(#grid)" opacity="0.92"/>
+
+  <g opacity="0.75">
+    <path d="M96 422C207 287 316 312 411 226C495 150 579 101 695 168C779 216 849 342 948 283C1028 236 1067 122 1185 128" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="96" cy="422" r="7" fill="#46E0D0"/>
+    <circle cx="411" cy="226" r="7" fill="#F5B85F"/>
+    <circle cx="695" cy="168" r="7" fill="#46E0D0"/>
+    <circle cx="948" cy="283" r="7" fill="#F5B85F"/>
+    <circle cx="1185" cy="128" r="7" fill="#46E0D0"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="70" y="76" width="1140" height="408" rx="28" fill="#0B1220" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="91" y="97" width="1098" height="366" rx="21" fill="#101B2D" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  </g>
+
+  <g transform="translate(126 128)">
+    <rect x="0" y="0" width="88" height="88" rx="18" fill="#46E0D0"/>
+    <rect x="11" y="11" width="66" height="66" rx="13" fill="#0B1220" fill-opacity="0.08"/>
+    <text x="44" y="56" text-anchor="middle" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-size="30" font-weight="800" fill="#08111F">SG</text>
+  </g>
+
+  <text x="126" y="260" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-size="72" font-weight="800" fill="#EDF5FF" letter-spacing="-1">Shailansh Gaur</text>
+  <text x="130" y="312" font-family="Hanken Grotesk, Plus Jakarta Sans, sans-serif" font-size="28" font-weight="600" fill="#9FB1C8">Strategic Staffing | Workforce Planning | Resource Management</text>
+  <text x="130" y="356" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="16" font-weight="600" fill="#46E0D0" letter-spacing="2">DEMAND . SUPPLY . CAPACITY . DEPLOYMENT CLARITY</text>
+
+  <g transform="translate(126 394)">
+    <rect x="0" y="0" width="155" height="48" rx="24" fill="#46E0D0"/>
+    <text x="78" y="31" text-anchor="middle" font-family="Hanken Grotesk, Plus Jakarta Sans, sans-serif" font-size="17" font-weight="800" fill="#08111F">Live Portfolio</text>
+    <rect x="171" y="0" width="133" height="48" rx="24" fill="#F5B85F"/>
+    <text x="237" y="31" text-anchor="middle" font-family="Hanken Grotesk, Plus Jakarta Sans, sans-serif" font-size="17" font-weight="800" fill="#08111F">CV Ready</text>
+    <rect x="320" y="0" width="226" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.13"/>
+    <text x="433" y="31" text-anchor="middle" font-family="Hanken Grotesk, Plus Jakarta Sans, sans-serif" font-size="17" font-weight="700" fill="#EDF5FF">Open to IMEA roles</text>
+  </g>
+
+  <g transform="translate(784 132)">
+    <rect x="0" y="0" width="342" height="86" rx="18" fill="#0C1525" stroke="#FFFFFF" stroke-opacity="0.11"/>
+    <text x="24" y="33" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" font-weight="700" fill="#46E0D0" letter-spacing="1.6">CAREER SIGNAL</text>
+    <text x="24" y="64" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-size="30" font-weight="800" fill="#EDF5FF">8+ years</text>
+  </g>
+  <g transform="translate(836 240)">
+    <rect x="0" y="0" width="342" height="86" rx="18" fill="#0C1525" stroke="#FFFFFF" stroke-opacity="0.11"/>
+    <text x="24" y="33" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" font-weight="700" fill="#F5B85F" letter-spacing="1.6">PRACTICE SCALE</text>
+    <text x="24" y="64" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-size="30" font-weight="800" fill="#EDF5FF">200+ consultants</text>
+  </g>
+  <g transform="translate(760 348)">
+    <rect x="0" y="0" width="342" height="86" rx="18" fill="#0C1525" stroke="#FFFFFF" stroke-opacity="0.11"/>
+    <text x="24" y="33" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" font-weight="700" fill="#46E0D0" letter-spacing="1.6">SOCIAL PROOF</text>
+    <text x="24" y="64" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-size="30" font-weight="800" fill="#EDF5FF">12 recommendations</text>
+  </g>
+</svg>
